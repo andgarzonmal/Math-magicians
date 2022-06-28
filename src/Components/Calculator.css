@@ -1,6 +1,6 @@
 .calculator-container {
-  width: 50%;
-  height: 60%;
+  width: 85%;
+  height: 50%;
   border: 1px solid black;
 }
 
@@ -13,9 +13,45 @@
 
 .calculator-screen {
   height: 15%;
+  background-color: #858694;
+  border: 2px solid black;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.solution {
+  padding-right: 20px;
 }
 
 .buttons {
-  border: 1px solid black;
+  background-color: azure;
+  font-size: 20px;
 }
 
+.cero {
+  grid-area: 5/1/5/3;
+}
+.orange {
+  background-color: #f5913e;
+}
+
+@media screen and (min-width: 768px){
+
+  .calculator-container {
+    width: 60%;
+    height: 60%;
+    border: 1px solid black;
+  }
+
+}
+
+@media screen and (min-width: 1440px){
+
+  .calculator-container {
+    width: 40%;
+    height: 60%;
+    border: 1px solid black;
+  }
+
+}
