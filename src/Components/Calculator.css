@@ -1,0 +1,21 @@
+.calculator-container {
+  width: 50%;
+  height: 60%;
+  border: 1px solid black;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 85%;
+}
+
+.calculator-screen {
+  height: 15%;
+}
+
+.buttons {
+  border: 1px solid black;
+}
+
