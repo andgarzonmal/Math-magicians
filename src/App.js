@@ -23,7 +23,6 @@ import Calculator from './Components/Calculator';
 
 const App = () => (
   <div className="App">
-    <h1>My Calculator</h1>
     <Calculator />
   </div>
 );
