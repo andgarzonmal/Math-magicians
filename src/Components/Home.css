@@ -1,0 +1,29 @@
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.welcome-section {
+  width: 60%;
+  background-color: #4697e32a;
+  padding: 80px;
+  border: 5px solid #c8f1fe;
+  box-shadow: inset 0 0 2em #4696e3, 0 0 2em #4696e3 ;
+}
+
+.home-header {
+  font-size: 70px;
+  color: #c8f1fe;
+  text-shadow:0 0 0.125em #4696e3, 0 0 0.45em currentColor;
+  margin-bottom: 25px;
+}
+
+.home-text {
+  font-size: 25px;
+  font-weight: 100;
+  color:white;
+  text-shadow:0 0 0.125em #4696e3, 0 0 0.45em currentColor;
+}
