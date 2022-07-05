@@ -1,0 +1,136 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.NavButton {
+  background: none;
+  border: none;
+}
+
+/* WHEN USER CLICKS ON HAMBURGUER */
+
+.navopen {
+  background-color: #845dc0eb;
+  position: absolute;  /* REVISAR */
+  height: 100vh;
+  width: 100vw;
+  animation: transition 0.5s;
+} 
+
+@keyframes transition {
+  
+  from {
+    width: 0vw;
+  }
+  
+  to {
+    width: 100vw;
+  }
+}
+
+.Nav-items-container-open {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logo-open {
+  display: none;
+}
+
+.li-title-close {
+  display: unset;
+}
+
+.navbtn-open {
+  position: absolute;
+  right: 0;
+  margin: 25px;
+  border: none;
+  background: none;
+  font-size: 25PX;
+}
+
+.ul-open {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-open li {
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.ul-open li:hover {
+  font-weight: bold;
+}
+
+/* WHEN USER CLICKS ON X OR HAS NOT YET CLICKED ON HAMBURGUER */
+
+.navclose {
+  background-color: #845dc0eb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.Nav-items-container-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%
+}
+
+.active {
+  font-size: 25px;
+  color:rgb(255, 255, 255);
+  list-style: none;
+}
+
+.li-title-close {
+  display: none;
+}
+
+.ul-close {
+  display: none;
+}
+
+.ul-close li {
+  font-size: 25px;
+  color: #78d0ee;
+  text-shadow:0 0 0.125em #4696e3, 0 0 0.45em currentColor;
+}
+
+.navbtn-close {
+  background: none;
+  border: none;
+  font-size: 30PX;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 760px) {
+  .navbtn-close{
+    display: none;
+  }
+
+  .ul-close {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+.logo {
+  font-size: 35px;
+  color: #c8f1fe;
+  text-shadow:0 0 0.125em #4696e3, 0 0 0.45em currentColor;
+}
