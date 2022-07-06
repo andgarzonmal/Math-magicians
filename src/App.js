@@ -7,24 +7,6 @@ import Home from './Components/Home';
 import Quote from './Components/Quote';
 import Navbar from './Components/Navbar';
 
-// class App extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {};
-//   }
-
-//   render() {
-//     return (
-//       <div className="App">
-//         <h1>My Calculator</h1>
-//         <Calculator />
-//       </div>
-//     );
-//   }
-// }
-
-//
-
 const App = () => (
   <BrowserRouter>
     <Navbar />
