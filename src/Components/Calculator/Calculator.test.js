@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { fireEvent} from '@testing-library/dom';
+import { fireEvent } from '@testing-library/dom';
 import Calculator from './Calculator';
 
 
 describe ('Calculator', () => {
-  it ('Calculator sceer starts on 0', () => {
-    render(<Calculator />)
-    expect(screen.getByText('x')).toBeInTheDocument()
-  })
 
   it ('The default value of the calculator screen is 0', () =>{
     const component = render(<Calculator />); 
