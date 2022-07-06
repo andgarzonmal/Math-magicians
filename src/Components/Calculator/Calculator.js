@@ -34,7 +34,7 @@ const Calculator = () => {
         <button onClick={updateState} type="button" className="buttons ">9</button>
         <button onClick={updateState} type="button" className="buttons orange">x</button>
         <button onClick={updateState} type="button" className="buttons ">4</button>
-        <button onClick={updateState} type="button" className="buttons ">5</button>
+        <button onClick={updateState} type="button" className="buttons 5">5</button>
         <button onClick={updateState} type="button" className="buttons ">6</button>
         <button onClick={updateState} type="button" className="buttons orange">-</button>
         <button onClick={updateState} type="button" className="buttons ">1</button>
