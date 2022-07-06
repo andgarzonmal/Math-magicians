@@ -22,6 +22,13 @@ https://andgarzonmal.github.io/Math-magicians/
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/andres-garzon-maldonado-951a2a180/)
 
+👤 **Darik Mohammed**
+
+- GitHub: [@githubhandle](https://github.com/darikmohammed)
+- Twitter: [@twitterhandle](https://twitter.com/r_darik)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/darik-mohammed-57352120b/)
+
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
