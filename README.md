@@ -12,7 +12,7 @@
 - Css
 ## Live demo
 
-https://andgarzonmal.github.io/Math-magicians/
+https://my-lets-do-some-math-app.herokuapp.com/Calculator
 
 ## Authors
 
