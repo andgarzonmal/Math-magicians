@@ -132,3 +132,10 @@ a {
   color: #c8f1fe;
   text-shadow: 0 0 0.125em #4696e3, 0 0 0.45em currentColor;
 }
+
+@media screen and (max-width: 450px) {
+ .logo {
+  font-size: 28px;
+ }
+}
+

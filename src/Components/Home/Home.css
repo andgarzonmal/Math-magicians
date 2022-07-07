@@ -27,3 +27,32 @@
   color: white;
   text-shadow: 0 0 0.125em #4696e3, 0 0 0.45em currentColor;
 }
+
+
+@media  (max-width:880px) {
+  .welcome-section {
+    width: 80%
+  }
+  
+}
+
+@media  (max-width: 660px) {
+  .welcome-section {
+    width: 90%
+  }  
+}
+
+@media  (max-width: 580px) {
+  .welcome-section {
+    width: 95%;
+    padding: 40px;
+  }  
+
+  .home-header {
+    font-size: 50px;
+  }
+
+  .home-text {
+    font-size: 20px;
+  }
+}
